@@ -3,7 +3,11 @@ body {
   /* background: #0c2426; */
   /* background: #161a1c; */
   /* background: #2d3331; */
-  background: #041419;
+  /* background: #041419; */
+  /* background: #065433; */
+  /* background: #094d23; */
+  /* background: #164026; */
+  background: #0f485b;
   color: #fff;
   font-family: "Noto Sans", sans-serif;
   line-height: 1.8rem;
@@ -28,12 +32,17 @@ a:hover {
   width: 800px;
 }
 
-.profile {
+.profile-container {
   width: 150px;
   height: 150px;
-  border-radius: 100%;
   margin: auto;
   display: block;
+}
+
+.profile {
+  border-radius: 100%;
+  max-width: 150px;
+  max-height: 150px;
 }
 
 h1 {
@@ -61,6 +70,7 @@ h1 {
   width: 30%;
   display: inline-block;
   vertical-align: top;
+  /* padding: 10px; */
 }
 
 .item .description {
@@ -69,6 +79,10 @@ h1 {
   vertical-align: top;
   padding-left: 48px;
   box-sizing: border-box;
+}
+
+.item .description a h2:hover {
+  font-size: 1.55em;
 }
 
 .item h2 {
