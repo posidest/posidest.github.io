@@ -1,12 +1,4 @@
 body {
-  /* background: #3A3A59; */
-  /* background: #0c2426; */
-  /* background: #161a1c; */
-  /* background: #2d3331; */
-  /* background: #041419; */
-  /* background: #065433; */
-  /* background: #094d23; */
-  /* background: #164026; */
   background: #0f485b;
   color: #fff;
   font-family: "Noto Sans", sans-serif;
@@ -113,4 +105,35 @@ h1 {
     width: 100%;
     padding-left: 0;
   }
+}
+
+.skills i {
+  font-size: 25px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0 20px 0;
+}
+
+#about {
+  margin: 30px 0 60px 0;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#about-btn,
+#hide-btn {
+  margin: 40px 0 20px 0;
+  padding: 6px 9px 6px 9px;
+  background: white;
+  border: none;
+  border-radius: 2px;
+  font-size: 16px;
+  color: #0f485b;
+  font-weight: bold;
 }
