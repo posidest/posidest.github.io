@@ -15,7 +15,8 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+button:hover {
   opacity: 0.7;
 }
 
@@ -74,7 +75,8 @@ h1 {
 }
 
 .item .description a h2:hover {
-  font-size: 1.55em;
+  /* font-size: 1.55em; */
+  opacity: 0.7;
 }
 
 .item h2 {
@@ -120,6 +122,10 @@ h1 {
 #about {
   margin: 30px 0 60px 0;
   text-align: center;
+}
+
+#about img {
+  margin: 20px;
 }
 
 .hidden {
