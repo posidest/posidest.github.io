@@ -32,6 +32,14 @@ button:hover {
   display: block;
 }
 
+.image-container {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  display: block;
+  padding: 10px 0 40px 0;
+}
+
 .profile {
   border-radius: 100%;
   max-width: 150px;
